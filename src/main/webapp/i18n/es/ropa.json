@@ -1,0 +1,25 @@
+{
+  "soniaTestApp": {
+    "ropa": {
+      "home": {
+        "title": "Ropas",
+        "createLabel": "Crear nuevo Ropa",
+        "createOrEditLabel": "Crear o editar Ropa",
+        "notFound": "Ningún Ropas encontrado"
+      },
+      "created": "Un nuevo Ropa ha sido creado con el identificador {{ param }}",
+      "updated": "Un Ropa ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Ropa ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Ropa {{ id }}?"
+      },
+      "detail": {
+        "title": "Ropa"
+      },
+      "marca": "Marca",
+      "talla": "Talla",
+      "tela": "Tela",
+      "color": "Color"
+    }
+  }
+}
