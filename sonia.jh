@@ -1,0 +1,10 @@
+entity Ropa{
+marca String
+talla String
+tela String
+color Color
+}
+
+enum Color{
+ROJO AZUL VERDE NEGRO
+}

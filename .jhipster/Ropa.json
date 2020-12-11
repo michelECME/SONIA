@@ -1,0 +1,34 @@
+{
+  "name": "Ropa",
+  "fields": [
+    {
+      "fieldName": "marca",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "talla",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "tela",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "color",
+      "fieldType": "Color",
+      "fieldValues": "ROJO,AZUL,VERDE,NEGRO"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20201211144008",
+  "entityTableName": "ropa",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

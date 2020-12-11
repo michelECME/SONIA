@@ -1,0 +1,11 @@
+{
+  "soniaTestApp": {
+    "Color": {
+      "null": "",
+      "ROJO": "ROJO",
+      "AZUL": "AZUL",
+      "VERDE": "VERDE",
+      "NEGRO": "NEGRO"
+    }
+  }
+}

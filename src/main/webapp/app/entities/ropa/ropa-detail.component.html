@@ -1,0 +1,42 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="ropa">
+            <h2><span jhiTranslate="soniaTestApp.ropa.detail.title">Ropa</span> {{ ropa.id }}</h2>
+
+            <hr>
+
+            <jhi-alert-error></jhi-alert-error>
+
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="soniaTestApp.ropa.marca">Marca</span></dt>
+                <dd>
+                    <span>{{ ropa.marca }}</span>
+                </dd>
+                <dt><span jhiTranslate="soniaTestApp.ropa.talla">Talla</span></dt>
+                <dd>
+                    <span>{{ ropa.talla }}</span>
+                </dd>
+                <dt><span jhiTranslate="soniaTestApp.ropa.tela">Tela</span></dt>
+                <dd>
+                    <span>{{ ropa.tela }}</span>
+                </dd>
+                <dt><span jhiTranslate="soniaTestApp.ropa.color">Color</span></dt>
+                <dd>
+                    <span jhiTranslate="{{ 'soniaTestApp.Color.' + ropa.color }}">{{ ropa.color }}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/ropa', ropa.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+            </button>
+        </div>
+    </div>
+</div>
